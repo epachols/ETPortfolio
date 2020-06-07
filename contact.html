@@ -10,22 +10,26 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- some google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/956330d85a.js" crossorigin="anonymous"></script>
+    <!-- my external stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <!-- Basic navbar done as a container -->
-<nav>
-    <div class="container-sm bg-light">
+<nav class="bg-light">
+    <div class="container-sm bg-light border-bottom">
         <div class="row justify-content-between">
-            <div class="col-sm-4 p-2 bg-success">
-            <h3 class="text-center text-white">Evan Pacholski</h3>    
+            <div class="col-md-4 p-2 bg-success">
+            <h4 class="text-center text-white pt-3"><i class="fas fa-crow"></i> Evan Pacholski</h4>    
+
             </div>
-            <div class="col-sm-6 p-2 bg-light justify-content-end">  
+            <div class="col-md-6 mt-1 p-2 bg-light justify-content-end">  
                 <ul class="nav nav-pills nav-fill">
                 <li class="nav-item">
-                <a class="nav-link text-muted" href="index.html">About</a>
+                <a class="nav-link text-muted border-right rounded-right" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link text-muted border-right" href="portfolio.html">Portfolio</a>
@@ -43,15 +47,36 @@
 <main class="bg-light p-5">
 
     <!-- contact request form  -->
-   <div class="container">
-       <div class="row justify-content-center">
-           <div class="col-sm-8">
+   <div class="container-lg" id="contactform">
+       <div class="row justify-content-start">
+           <div class="col-md-7">
                 <div class="card">
                     <div class="card-body">
                             <h3 class="text-success">
                                 Contact
                             </h3>
                             <hr>
+                            <!-- form start -->
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1">Name</label>
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="What can I call you?">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="sirius@3broomsticks.com">
+                                  </div>
+                                </div>
+
+                                <div class="form-group m-3">
+                                  <label for="exampleFormControlTextarea1">Message</label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Anything else on your mind?"></textarea>
+                                </div>
+                                <div class="form-group col-2">
+                                <!-- submit button -->
+                                <button type="submit" class="btn btn-dark mb-2">Submit</button>
+                                </div>  
+                              </form>
                         </div>
                 
                 </div>
