@@ -2,17 +2,24 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+body, main {
+  display: flex;
+  flex-direction: column;
+  min-height:100vh;
+}
 
-#page-content {
-    flex: 1 0 auto;
-  }
-  
   #sticky-footer {
     flex-shrink: 0;
     position: fixed;
     width: 100vw;
+    margin-top: auto;
+    bottom: 0;
   }
 
 #contactform {
     font-family: 'Varela Round', sans-serif;
+}
+
+#aboutme {
+  min-height:40vh;
 }
