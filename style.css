@@ -1,6 +1,18 @@
 * {
     font-family: 'Josefin Sans', sans-serif;
 }
+
+
+#page-content {
+    flex: 1 0 auto;
+  }
+  
+  #sticky-footer {
+    flex-shrink: 0;
+    position: fixed;
+    width: 100vw;
+  }
+
 #contactform {
     font-family: 'Varela Round', sans-serif;
 }
