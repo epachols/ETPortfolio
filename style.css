@@ -23,3 +23,8 @@ body, main {
 #aboutme {
   min-height:50vh;
 }
+
+#parallax-background {
+  background-image: url(assets/sunsetupnorth.jpg);
+  height:500px;
+}
