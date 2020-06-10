@@ -24,7 +24,14 @@ body, main {
   min-height:50vh;
 }
 
+/* creating the parallax scrolling effect */
+
 #parallax-background {
   background-image: url(assets/sunsetupnorth.jpg);
-  height:500px;
+  min-height:888px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
