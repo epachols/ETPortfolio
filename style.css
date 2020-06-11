@@ -2,6 +2,7 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/* the stuff in body and main as well as sticky footer make sticky footer */
 body, main {
   display: flex;
   flex-direction: column;
