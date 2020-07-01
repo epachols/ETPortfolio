@@ -10,43 +10,52 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- some google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/956330d85a.js" crossorigin="anonymous"></script>
     <!-- my external stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-dark">
+<body id="bootstrapOr">
 
-<!-- Basic navbar done as a container -->
-<nav class="bg-light">
-    <div class="container-fluid bg-light">
-
-        <div class="row justify-content-between">
-            <div class="col-md-4 p-2 bg-success">
-                <h4 class="text-center text-white mt-3"><i class="fas fa-crow"></i> Evan Pacholski</h4>    
-
-            </div>
-
-            <div class="col-md-6 col-lg-4 mt-1 p-2 bg-light justify-content-end">  
-                <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                <a class="nav-link text-muted border-right rounded-right" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-muted border-right" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-success bg-dark active" href="contact.html">Contact</a>
-                </li>
-            </ul>
-            </div>
-        </div>
+ <!-- insert revamped nav  -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <h4 class="text-center mr-auto mt-3">
+            <i class="fas fa-crow"></i> Evan Pacholski
+          </h4>
+      <ul class="navbar-nav  ml-auto mt-2 mt-lg-0">
+  
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+        </li>
+  
+        <li class="nav-item">
+            <a
+            class="nav-link"
+            href="portfolio.html"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- replace later with the codepent literal radio buttons, -->
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
     </div>
-</nav>
+  </nav>
+  
 
 
-<main class="bg-dark py-5">
+<main class="py-5">
  
     <!-- contact request form  -->
    <div class="container-lg" id="contactform">
@@ -55,9 +64,9 @@
            <div class="col-md-7">
                 <div class="card">
                     <div class="card-body">
-                            <h3 class="text-success">
+                            <h4>
                                 Contact
-                            </h3>
+                            </h4>
                             <hr>
                             <!-- form start -->
                             <form>
@@ -105,16 +114,49 @@
 
 </main>
 
-<!-- sticky footer -->
-<footer class="navbar navbar-fixed-bottom navbar-dark bg-success justify-content-around"  id="stickyfooter">
-    <div class="text-center">
-    <a class="navbar-brand" href="#"><i class="fas fa-crow"></i>CodeCrow&copy;</a>
-    </div>
-    <div class="text-center">
-        <a class="navbar-brand" href="https://github.com/epachols" target="blank"><i class="fab fa-github-alt"></i></a>
-        <a class="navbar-brand" href="https://www.linkedin.com/in/evan-pacholski-7910481ab" target="blank"><i class="fab fa-linkedin"></i></a>
-    </div>
-</footer>
+     <!-- sticky footer -->
+     <footer
+     class="navbar navbar-fixed-bottom justify-content-around"
+     id="sticky-footer"
+   >
+     <div class="text-center">
+       <h4 class="navbar-brand"
+       ><i class="fas fa-crow"></i>
+       CodeCrow &copy;
+       </h4>
+     </div>
+     <div class="text-center">
+       <a
+         class="navbar-brand"
+         href="https://github.com/epachols"
+         target="blank"
+         ><i class="fab fa-github-alt"></i
+       ></a>
+       <a
+         class="navbar-brand"
+         href="https://www.linkedin.com/in/evan-pacholski-7910481ab"
+         target="blank"
+         ><i class="fab fa-linkedin"></i
+       ></a>
+           <span class="navbar-brand" id="footPhoEm1">
+               <i class="fas fa-phone-square-alt"></i>
+               <span style="font-size:small">248.761.3801</span>
+               <!-- <i class="fas fa-envelope-square"></i>
+               <span style="font-size:small">epacholski86@gmail.com</span> -->
+           </span>
+           <span class="navbar-brand" id="footPhoEm2">
+               <!-- <i class="fas fa-phone-square-alt"></i>
+               <span style="font-size:small">248.761.3801</span> -->
+               
+               <a href="mailto:epacholski86@gmail.com">
+               <i class="fas fa-envelope-square"></i>
+               </a> 
+               Email Me
+           </span>
+   </div>
+   </footer>
+
+
 
 <!-- jQuery, then popper, then bootstrap js just in case-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
