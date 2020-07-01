@@ -1,10 +1,9 @@
 # ETPortfolio
 
-A portfolio and landing about me website, inclusive of links to portfolio contents and social media, with basic styling and functional navbar.
+A portfolio inclusive of links to portfolio contents and social media.
+
+Utilizes CSS, HTML, Bootstrap.
 
  # Deployed link: https://epachols.github.io/ETPortfolio/
 
-
-
-we need to:
-change color palette and give us something to work with on all via https://imagecolorpicker.com/en/
+![Preview of portfolio page](./assets/preview.png)
