@@ -9,13 +9,18 @@ body, main {
   min-height:100vh;
 }
 
-  #sticky-footer {
-    flex-shrink: 0;
-    position: fixed;
-    width: 100vw;
-    margin-top: auto;
-    bottom: 0;
-  }
+#myNav {
+  background-color: 	#8b7235;
+}
+
+#sticky-footer {
+  flex-shrink: 0;
+  position: fixed;
+  width: 100vw;
+  margin-top: 5vh;
+  bottom: 0;
+  background-color: #d4bf87;
+}
 
 #contactform {
     font-family: 'Varela Round', sans-serif;
@@ -37,9 +42,6 @@ body, main {
   background-size: cover;
 }
 
-#boostrapOr a {
-  color:	#43550f;
-}
 
 #footPhoEm1 {
   font-family: 'Varela Round', sans-serif;
@@ -47,4 +49,50 @@ body, main {
 
 #footPhoEm2 {
   font-family: 'Varela Round', sans-serif;
+}
+
+#bootstrapOr {
+  background-color: #312411;
+}
+#bootstrapOr .container{
+  background-color: 	#959492;
+}
+#bootstrapOr a {
+  color: 		#43550f;
+  font-size: 17px;
+}
+#bootstrapOr h3 {
+  color: #312411;
+  text-shadow: #43550f;
+  font-weight: bold;
+  font-family: 'Galada', cursive;
+  font-size: 70px;
+  text-decoration: underline;
+
+}
+#bootstrapOr h4 {
+  color: #312411;
+  text-shadow: #43550f;
+  font-weight: bold;
+  font-family: 'Galada', cursive;
+  font-size: 25px;
+  text-decoration: underline;
+
+}
+#bootstrapOr .card-block {
+  background-color: 	#c0b356;
+  border: 5px solid 	#654a1a;
+  border-radius: 5px;
+  margin: 1vw;
+
+}
+#bootstrapOr .nav-item {
+  background-color:#95949200;
+  border-radius: 5px;
+  color: #312411;
+}
+#bootstrapOr .active {
+  background-color:#312411;
+  border-radius: 5px;
+  color: 	#8b7235;
 }
