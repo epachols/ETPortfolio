@@ -1,5 +1,5 @@
 * {
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 /* the stuff in body and main as well as sticky footer make sticky footer */
@@ -35,4 +35,16 @@ body, main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#boostrapOr a {
+  color:	#43550f;
+}
+
+#footPhoEm1 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+#footPhoEm2 {
+  font-family: 'Varela Round', sans-serif;
 }

@@ -16,71 +16,105 @@
         <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-dark">
+<body>
+<div class="wrapper" id="parallax-background">
 
 <!-- Basic navbar -->
-<nav class="bg-light">
+
+  <nav class="bg-light">
     <div class="container-fluid bg-light">
-        <div class="row justify-content-between">
-            <div class="col-md-4 p-2 bg-success">
-            <h4 class="text-center text-white mt-3"><i class="fas fa-crow"></i> Evan Pacholski</h4>    
-            </div>
-            <div class="col-md-6 mt-2 p-2 bg-light justify-content-end">  
-                <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                <a class="nav-link bg-dark text-success active" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-muted border-right" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-muted" href="contact.html">Contact</a>
-                </li>
-            </ul>
-            </div>
+      <div class="row justify-content-between">
+        <div class="col-md-4 p-2 bg-success">
+          <h4 class="text-center text-white mt-3"><i class="fas fa-crow"></i> Evan Pacholski</h4>    
         </div>
+        <div class="col-md-6 mt-2 p-2 bg-light justify-content-end">  
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link bg-dark text-success active" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted border-right" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-</nav>
-
-    <main class="bg-dark">
+  </nav>
   
-      <div id="parallax-background">
-        <div class="container border rounded bg-light my-5 p-3 text-center">
-            <div class="row mx-2">
-                <h3 class="text-success mt-1 pt-1">Who the Heck is this guy?
-                </h3><span class="small align-self-center">And why should I care?</span>
-            </div>
-            <div class="row align-items-middle">
-                <div class="col-md-4 mt-2 mb-4">
-                    <img src="assets/mugshot.jpg" alt="" class="img-fluid mx-1 shadow-lg">
-                </div>
-                <div class="col-md-7 mx-1"> 
-                    <p>&nbsp;&nbsp;&nbsp;(WIP) Chef-turned-entrepreneur Evan Pacholski (hereafter referred to as code crow, or <i class="fas fa-crow text-dark"></i> for short) Has his hands in the dirt, and a weather eye on the horizon.  <br><br>Studying medicine imparted an experimentally methodical mindset, and 15 years as a culinary-professional engraved an adrenally-fueled fastidiousness that gets the job done while communicating successfully.... even in a stressful, time-sensitive environment working closely with a small-to medium team. A dollop of startup-style business branch construction and guidance has rounded out sales and management soft skills for this <i class="fas fa-crow text-dark"></i>, lending a unique blend of perseverence and breadth of experience to any team.</p>
-                </div>
-            </div>
+  <main class="bg-dark">
     
+    <div>
+      <div class="container border rounded bg-light my-5 p-3 text-center">
+        <div class="row mx-2">
+          <h3 class="text-success mt-1 pt-1">Who the Heck is this guy?
+          </h3><span class="small align-self-center">And why should I care?</span>
         </div>
-      </div>  
-        </main>
+        <div class="row align-items-middle">
+          <div class="col-md-4 mt-2 mb-4">
+            <img src="assets/mugshot.jpg" alt="" class="img-fluid mx-1 shadow-lg">
+          </div>
+          <div class="col-md-7 mx-1"> 
+            <p>&nbsp;&nbsp;&nbsp;(WIP) Chef-turned-entrepreneur Evan Pacholski (hereafter referred to as code crow, or <i class="fas fa-crow text-dark"></i> for short) Has his hands in the dirt, and a weather eye on the horizon.  <br><br>Studying medicine imparted an experimentally methodical mindset, and 15 years as a culinary-professional engraved an adrenally-fueled fastidiousness that gets the job done while communicating successfully.... even in a stressful, time-sensitive environment working closely with a small-to medium team. A dollop of startup-style business branch construction and guidance has rounded out sales and management soft skills for this <i class="fas fa-crow text-dark"></i>, lending a unique blend of perseverence and breadth of experience to any team.</p>
+          </div>
+        </div>
         
-
-
-
-<!-- Here is the sticky footer -->
-<footer class="navbar navbar-fixed-bottom navbar-dark bg-success justify-content-around mt-5"  id="stickyfooter">
-    <div class="text-center">
-    <a class="navbar-brand" href="#"><i class="fas fa-crow"></i>CodeCrow&copy;</a>
-    </div>
-    <div class="text-center">
-        <a class="navbar-brand" href="https://github.com/epachols" target="blank"><i class="fab fa-github-alt"></i></a>
-        <a class="navbar-brand" href="https://www.linkedin.com/in/evan-pacholski-7910481ab" target="blank"><i class="fab fa-linkedin"></i></a>
-    </div>
-</footer>
-
-
-<!-- jQuery, then popper, then bootstrap js just in case-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      </div>
+    </div>  
+  </main>
+  
+  
+  
+  
+  <!-- sticky footer -->
+  <footer
+  class="navbar navbar-fixed-bottom navbar-dark bg-success justify-content-around"
+  id="stickyfooter"
+  >
+  <div class="text-center">
+    <a class="navbar-brand" href="#"
+    ><i class="fas fa-crow"></i>CodeCrow&copy;</a
+    >
+  </div>
+  <div class="text-center">
+    <a
+    class="navbar-brand"
+    href="https://github.com/epachols"
+    target="blank"
+    ><i class="fab fa-github-alt"></i
+      ></a>
+      <a
+      class="navbar-brand"
+      href="https://www.linkedin.com/in/evan-pacholski-7910481ab"
+      target="blank"
+      ><i class="fab fa-linkedin"></i
+        ></a>
+        <span class="navbar-brand" id="footPhoEm1">
+          <i class="fas fa-phone-square-alt"></i>
+          <span style="font-size:small">248.761.3801</span>
+          <!-- <i class="fas fa-envelope-square"></i>
+            <span style="font-size:small">epacholski86@gmail.com</span> -->
+          </span>
+          <span class="navbar-brand" id="footPhoEm2">
+            <!-- <i class="fas fa-phone-square-alt"></i>
+              <span style="font-size:small">248.761.3801</span> -->
+              
+              <a href="mailto:epacholski86@gmail.com">
+                <i class="fas fa-envelope-square"></i>
+              </a> 
+              Email Me
+            </span>
+          </div>
+        </footer>
+        
+      <!-- ending of the wrapper    -->
+      </div>
+        
+        <!-- jQuery, then popper, then bootstrap js just in case-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
