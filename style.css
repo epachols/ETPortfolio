@@ -68,8 +68,9 @@ body, main {
   background-color: 	#959492;
 }
 #bootstrapOr a {
-  color: 		#e2ecba;
-  font-size: 25px;
+  color: 		#e3e7d5;
+  font-size: 20px;
+  font-family: ;
 }
 #bootstrapOr h3 {
   color: #784834;
@@ -99,14 +100,14 @@ body, main {
   /* background-color:#95949200; */
   border-radius: 5px;
   color: #312411;
+  line-height: 1.2;
 }
 #bootstrapOr .active {
   background-color:#784834;
   border-radius: 5px;
   margin-left: 15px;
+  max-width: 60vw;
+
 }
 
 
-.crowski {
-  background-image: url(assets/images/crow.png);
-}
