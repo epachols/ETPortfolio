@@ -10,6 +10,9 @@
   |    [Credits](#credits)        |
   |     [License](#license)       |
   
+  # Deployed link:
+  https://epachols.github.io/ETPortfolio/index.html
+  
   ## Description
   
  A basic html and css portfolio shell for housing projects of interest.
