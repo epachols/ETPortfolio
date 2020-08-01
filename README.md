@@ -1,9 +1,64 @@
-# ETPortfolio
+# Portfolio mkII
 
-A portfolio inclusive of links to portfolio contents and social media.
+  |      Table of Contents:       |
+  |-------------------------------|
+  | [Installation](#installation) |
+  |        [Usage](#usage)        |
+  | [Contributing](#contributing) |
+  |     [Tests](#tests)           |
+  |    [Questions](#questions)    |
+  |    [Credits](#credits)        |
+  |     [License](#license)       |
+  
+  ## Description
+  
+ A basic html and css portfolio shell for housing projects of interest.
+  
+  ## Installation
+  
+ n/a
+  
+  
+  ## Usage 
+  
 
-Utilizes CSS, HTML, Bootstrap.
+  static html and css hosted by github for review 
 
- # Deployed link: https://epachols.github.io/ETPortfolio/
+  - ![Preview](./assets/preview.png)
+  
+  
+  ## Contributing:
+   
+ Guidelines for contribution (if any): 
 
-![Preview of portfolio page](./assets/preview.png)
+   please, don't.  
+  
+  
+  ## Tests:
+  Command for running tests for this app:
+  
+ n/a
+  
+  
+  ## Questions:
+  [epachols's Github](https://github.com/epachols/)
+  
+  
+  ## Credits:
+   Collaborating Credits:
+  
+ none
+  
+  ## License information:
+  
+ 
+  MIT ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [License Document](https://opensource.org/licenses/MIT)
+  
+  [https://choosealicense.com/](https://choosealicense.com/)
+  
+  ---
+  
+  |Thank you!         |
+  --------------------
+  |🏆 &#x1F981; epachols &#x1F981; 🏆|
+  
