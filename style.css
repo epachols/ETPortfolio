@@ -21,7 +21,8 @@ body, main {
 /* FOOTER STYLE */
 #sticky-footer {
   flex-shrink: 0;
-  position: fixed;
+  /* position: fixed; */
+  padding-top: 10px;
   width: 100vw;
   margin-top: 5vh;
   bottom: 0;
@@ -41,17 +42,6 @@ body, main {
   min-height:50vh;
 }
 
-/* creating the parallax scrolling effect */
-
-/* #parallax-background {
-  background-image: url(assets/sunsetupnorth.jpg);
-  min-height:888px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 
 #footPhoEm1 {
   font-family: 'Varela Round', sans-serif;
@@ -70,7 +60,7 @@ body, main {
 #bootstrapOr a {
   color: 		#e3e7d5;
   font-size: 20px;
-  font-family: ;
+  font-family: 'Krona One', sans-serif;
 }
 #bootstrapOr h3 {
   color: #784834;
@@ -88,13 +78,13 @@ body, main {
   /* text-decoration: underline; */
 
 }
-#bootstrapOr .card-block {
+/* #bootstrapOr .card-block {
   background-color:	#c0b356;
   border: 5px solid #654a1a;
   border-radius: 5px;
   margin: 1vw;
 
-}
+} */
 
 #bootstrapOr .nav-item {
   /* background-color:#95949200; */
